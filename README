@@ -1,0 +1,185 @@
+# Raymond Ellis | Network Engineer Portfolio
+
+### Aspiring Network Engineer | CCNA In Progress | Houston, TX
+
+Welcome to my hands-on networking portfolio.
+
+I am transitioning into a career in **Network Engineering** and currently preparing for the **Cisco CCNA certification**. This portfolio documents the practical side of my training through network design, Cisco IOS configuration, routing and switching, security, troubleshooting, and technical documentation.
+
+My goal is not simply to memorize networking concepts, but to **build, configure, break, troubleshoot, secure, and document working networks**.
+
+---
+
+## 🛠️ Technical Skills
+
+### Networking
+
+* TCP/IP
+* IPv4 Addressing & Subnetting
+* VLANs
+* 802.1Q Trunking
+* Inter-VLAN Routing
+* Router-on-a-Stick
+* DHCP
+* Static Routing
+* Network Troubleshooting
+
+### Cisco
+
+* Cisco IOS CLI
+* Cisco Packet Tracer
+* Cisco Routers
+* Cisco Layer 2 Switches
+* Access & Trunk Ports
+* Management SVIs
+
+### Network Security
+
+* Extended Access Control Lists (ACLs)
+* SSH Remote Management
+* Port Security
+* Secure VTY Access
+* Network Segmentation
+* Unused Port Hardening
+
+### Troubleshooting
+
+* ICMP / Ping Testing
+* MAC Address Tables
+* Interface Verification
+* VLAN Verification
+* Trunk Verification
+* ARP Fundamentals
+* Layer 1–3 Troubleshooting
+* Packet Tracer Simulation Mode
+
+---
+
+# 📂 Networking Projects
+
+## ✅ Project 01 — Small Business Office Network
+
+**Ellis Marketing Solutions**
+
+Designed and implemented a secure multi-department small-business network using Cisco Packet Tracer.
+
+### Technologies & Concepts
+
+* VLAN 10 — Sales
+* VLAN 20 — Accounting
+* VLAN 30 — IT
+* IPv4 Addressing
+* DHCP
+* 802.1Q Trunking
+* Router-on-a-Stick
+* Inter-VLAN Routing
+* Extended ACLs
+* SSH Version 2
+* Management SVIs
+* Port Security
+* Network Hardening
+* Connectivity Testing
+* Network Troubleshooting
+
+### Security Design
+
+```text
+Sales ──────X────── Accounting
+   ↕                    ↕
+   └──────── IT ────────┘
+```
+
+Sales and Accounting are prevented from directly communicating with each other, while the IT department retains connectivity to both networks.
+
+### Troubleshooting Highlight
+
+During implementation, DHCP and gateway connectivity initially failed even though the addressing, VLAN, and router configurations appeared correct.
+
+Using:
+
+* Static IP testing
+* ICMP
+* MAC address tables
+* VLAN verification
+* Trunk verification
+* Interface inspection
+* Packet Tracer Simulation Mode
+
+I traced the issue to an incorrectly configured physical trunk interface between **SW1 and R1**.
+
+After identifying and correcting the interface configuration, connectivity and DHCP services were successfully restored.
+
+**Project Status: COMPLETE ✅**
+
+➡️ **Open the `Project-01-Small-Business-Network` folder for the full project documentation, Packet Tracer file, configuration screenshots, testing results, and troubleshooting report.**
+
+---
+
+# 🚧 Upcoming Projects
+
+## Project 02 — Multi-Site Branch Network
+
+**Focus:** Static Routing, WAN Connectivity, Multiple LANs
+
+**Status:** Coming Soon
+
+## Project 03 — OSPF Routing Network
+
+**Focus:** Dynamic Routing, Neighbor Relationships, Route Selection
+
+**Status:** Coming Soon
+
+## Project 04 — Redundant Switched Network
+
+**Focus:** STP, Root Bridge Selection, EtherChannel, Redundancy
+
+**Status:** Coming Soon
+
+## Project 05 — Network Security Lab
+
+**Focus:** ACLs, Port Security, Device Hardening, Management Security
+
+**Status:** Coming Soon
+
+---
+
+# 🎯 Current Career Goal
+
+I am currently building the technical foundation necessary to begin my career in networking, with a primary goal of obtaining an **entry-level Network Engineer, Network Technician, NOC Technician, or related infrastructure position**.
+
+I am actively developing my skills through:
+
+* CCNA study
+* Cisco Packet Tracer labs
+* Network design projects
+* Troubleshooting exercises
+* Cisco IOS configuration
+* Technical documentation
+* Continued hands-on practice
+
+---
+
+# 📚 Currently Studying
+
+**Cisco Certified Network Associate (CCNA)**
+
+Current and upcoming areas of study include:
+
+* Routing & Switching
+* OSPF
+* Spanning Tree Protocol
+* EtherChannel
+* IPv6
+* NAT / PAT
+* Wireless Networking
+* Network Security
+* Network Automation Fundamentals
+
+---
+
+## 📫 Contact
+
+**Raymond Ellis**
+Houston, Texas
+
+**Career Focus:** Network Engineering & IT Infrastructure
